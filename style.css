@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+#dashboard{
+    border:1px solid black;
+    width: 800px;
+    height: 400px;
+    background-color:wheat;
+    text-align: center;
+   
+  
+}
+
+.score{
+    text-align: start;
+    width: 800px;
+    height: 25px;
+    padding: 25px;
+}
+.Gameover{
+    width: 250px;
+    height: 10px;
+   margin:0 auto 0 auto;
+}
